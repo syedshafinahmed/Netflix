@@ -181,6 +181,10 @@ nav div{
     font-size: 20px;
     margin-bottom: 10px;
 }
+.qna:hover{
+    background-color: #353131;
+    font-weight: 700;
+}
 .faq{
     display: flex;
     flex-direction: column;
