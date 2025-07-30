@@ -147,3 +147,28 @@ nav div{
     width: 427px;
     height: 320px;
 }
+.box2 img{
+    width: 427px;
+    height: 320px;
+}
+.box2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.parent2{
+    position: relative;
+}
+.child2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+}
+
+.box3{
+    height: 100px;
+    width: auto;
+    margin-bottom: 30px;
+    background-color: black;
+}
