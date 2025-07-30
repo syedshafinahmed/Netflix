@@ -113,3 +113,37 @@ nav div{
 .overlay{
     background-color: rgba(0, 0, 0, 0.7);
 }
+.box h2{
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+    background-color: black;
+    color: white;
+    padding: 150px;
+    margin-top: 10px;
+}
+.parent{
+    position: relative;
+    z-index: 4;
+}
+.child{
+    position: absolute;
+    top: 48%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.child-img{
+    width: 314px;
+    height: 178px;
+}
+.parent-img{
+    width: 427px;
+    height: 320px;
+}
