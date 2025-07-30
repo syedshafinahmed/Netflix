@@ -10,8 +10,6 @@
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
 }
 .b1{
     width: 130px;
@@ -196,4 +194,32 @@ nav div{
     font-size: 50px;
     font-weight: 900;
     color: white;
+}
+
+.thcol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.footer-div p{
+    margin-bottom: 10px;
+}
+.footer-div h6{
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.footer-div2 p{
+    margin-bottom: 10px;
+}
+.footer-div2{
+    margin-top: 30px;
+}
+.footer{
+    font-size: 24px;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    padding: 200px 0px;
 }
