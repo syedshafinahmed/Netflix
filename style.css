@@ -263,9 +263,6 @@ nav div {
     padding: 200px 0px;
 }
 
-.dn {
-    display: none;
-}
 
 @media screen and (max-width:768px) {
     .b1 {
@@ -302,16 +299,35 @@ nav div {
         width: 440px;
         height: 50px;
     }
-    .box{
+
+    .box {
         flex-direction: column;
         gap: 20px;
     }
-    .faq h2{
+
+    .faq h2 {
         font-size: 40px;
         text-align: center;
     }
-    .qna{
+
+    .qna {
         width: 500px;
         font-size: 16px;
+    }
+
+    .thcol {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 50px;
+        gap: 10px;
+    }
+
+    .footer-div2 {
+        margin-top: 0px;
+    }
+
+    .dn {
+        display: none;
     }
 }
