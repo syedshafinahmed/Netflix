@@ -1,17 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     max-width: 1280px;
     margin: auto;
 }
+
 .inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
-.b1{
+
+.b1 {
     width: 130px;
     height: 30px;
     background-color: transparent;
@@ -22,7 +25,8 @@
     border-radius: 5px;
     /* color: white; */
 }
-.b2{
+
+.b2 {
     width: 100px;
     height: 30px;
     background-color: rgba(200, 10, 10, 1);
@@ -32,27 +36,32 @@
     border-radius: 5px;
     color: white;
 }
-.b2:hover{
+
+.b2:hover {
     background-color: rgb(146, 7, 7);
 }
-nav{
+
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 600px;
     padding-top: 30px;
 }
-nav img{
+
+nav img {
     width: 200px;
     height: 50px;
 }
-nav div{
+
+nav div {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
-.hero input{
+
+.hero input {
     width: 440px;
     height: 50px;
     font-size: 20px;
@@ -60,7 +69,8 @@ nav div{
     border: 1px solid white;
     background-color: rgba(23, 23, 23, 0.8);
 }
-.hero button{
+
+.hero button {
     width: 200px;
     height: 50px;
     font-size: 22px;
@@ -70,53 +80,63 @@ nav div{
     background-color: rgba(200, 10, 10, 1);
     border: none;
 }
-.hero button:hover{
+
+.hero button:hover {
     background-color: rgb(146, 7, 7);
 }
-.hero{
+
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     margin-top: 30px;
 }
-.hero-title h2{
+
+.hero-title h2 {
     font-size: 55px;
     font-weight: 900;
     text-align: center;
     color: white;
 }
-.hero-title h3{
+
+.hero-title h3 {
     font-size: 22px;
     font-weight: 600;
     text-align: center;
     margin: 30px auto 50px auto;
     color: white;
 }
-.hero-title p{
+
+.hero-title p {
     font-size: 18px;
     font-weight: 600;
     text-align: center;
     color: white;
 }
-.hero-title{
+
+.hero-title {
     padding: 130px 0;
 }
-.header{
+
+.header {
     background-image: url(images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.overlay{
+
+.overlay {
     background-color: rgba(0, 0, 0, 0.7);
 }
-.box h2{
+
+.box h2 {
     font-weight: 900;
     font-size: 30px;
     margin-bottom: 10px;
 }
-.box{
+
+.box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,51 +146,58 @@ nav div{
     padding: 150px;
     margin-top: 10px;
 }
-.parent{
+
+.parent {
     position: relative;
     z-index: 4;
 }
-.child{
+
+.child {
     position: absolute;
     top: 48%;
     left: 49.5%;
     transform: translate(-50%, -50%);
     z-index: 2;
 }
-.child-img{
+
+.child-img {
     width: 314px;
     height: 178px;
 }
-.parent-img{
+
+.parent-img {
     width: 427px;
     height: 320px;
 }
-.box2 img{
+
+.box2 img {
     width: 427px;
     height: 320px;
 }
-.box2{
+
+.box2 {
     display: flex;
     flex-direction: row-reverse;
 }
 
-.parent2{
+.parent2 {
     position: relative;
 }
-.child2{
+
+.child2 {
     position: absolute;
     top: 53%;
     left: 53%;
     transform: translate(-50%, -35%);
 }
 
-.box3{
+.box3 {
     height: 100px;
     width: auto;
     background-color: black;
 }
 
-.qna{
+.qna {
     display: flex;
     justify-content: space-between;
     width: 1100px;
@@ -181,11 +208,13 @@ nav div{
     font-size: 20px;
     margin-bottom: 10px;
 }
-.qna:hover{
+
+.qna:hover {
     background-color: #353131;
     font-weight: 700;
 }
-.faq{
+
+.faq {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -193,37 +222,84 @@ nav div{
     background-color: black;
     margin-top: 10px;
 }
-.faq h2{
+
+.faq h2 {
     margin: 60px auto;
     font-size: 50px;
     font-weight: 900;
     color: white;
 }
 
-.thcol{
+.thcol {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 150px;
 }
-.footer-div p{
+
+.footer-div p {
     margin-bottom: 10px;
 }
-.footer-div h6{
+
+.footer-div h6 {
     margin-bottom: 30px;
     font-size: 24px;
     font-weight: 400;
 }
-.footer-div2 p{
+
+.footer-div2 p {
     margin-bottom: 10px;
 }
-.footer-div2{
+
+.footer-div2 {
     margin-top: 30px;
 }
-.footer{
+
+.footer {
     font-size: 24px;
     color: white;
     background-color: black;
     margin-top: 10px;
     padding: 200px 0px;
+}
+
+.dn {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .b1 {
+        width: 120px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .b2 {
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    nav,
+    nav div {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero-title h2 {
+        font-size: 40px;
+    }
+
+    .hero-title h3 {
+        font-size: 24px;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero button {
+        width: 440px;
+        height: 50px;
+    }
 }
